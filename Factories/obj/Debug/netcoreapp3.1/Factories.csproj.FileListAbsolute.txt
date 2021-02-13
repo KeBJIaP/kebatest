@@ -1,0 +1,14 @@
+C:\Users\kebji\source\repos\CTest\Factories\bin\Debug\netcoreapp3.1\Factories.deps.json
+C:\Users\kebji\source\repos\CTest\Factories\bin\Debug\netcoreapp3.1\Factories.dll
+C:\Users\kebji\source\repos\CTest\Factories\bin\Debug\netcoreapp3.1\Factories.pdb
+C:\Users\kebji\source\repos\CTest\Factories\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\kebji\source\repos\CTest\Factories\bin\Debug\netcoreapp3.1\Unity.dll
+C:\Users\kebji\source\repos\CTest\Factories\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\kebji\source\repos\CTest\Factories\bin\Debug\netcoreapp3.1\Unity.pdb
+C:\Users\kebji\source\repos\CTest\Factories\obj\Debug\netcoreapp3.1\Factories.csprojAssemblyReference.cache
+C:\Users\kebji\source\repos\CTest\Factories\obj\Debug\netcoreapp3.1\Factories.AssemblyInfoInputs.cache
+C:\Users\kebji\source\repos\CTest\Factories\obj\Debug\netcoreapp3.1\Factories.AssemblyInfo.cs
+C:\Users\kebji\source\repos\CTest\Factories\obj\Debug\netcoreapp3.1\Factories.csproj.CoreCompileInputs.cache
+C:\Users\kebji\source\repos\CTest\Factories\obj\Debug\netcoreapp3.1\Factories.csproj.CopyComplete
+C:\Users\kebji\source\repos\CTest\Factories\obj\Debug\netcoreapp3.1\Factories.dll
+C:\Users\kebji\source\repos\CTest\Factories\obj\Debug\netcoreapp3.1\Factories.pdb

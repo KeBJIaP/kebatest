@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "dq7oqB2r1W/9oGWDG2LKCWisisC5II5TzgUPMaUfqVIXoiSllG9zTn3ROwdOB3xVXVemzbXj3lD7SKYTwegoPw==",
+  "success": true,
+  "projectFilePath": "D:\\code\\github\\Kebatest\\Factories\\Factories.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kebji\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\kebji\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+    "C:\\Users\\kebji\\.nuget\\packages\\unity.abstractions\\5.11.7\\unity.abstractions.5.11.7.nupkg.sha512",
+    "C:\\Users\\kebji\\.nuget\\packages\\unity.container\\5.11.11\\unity.container.5.11.11.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+C:\Users\kebji\source\repos\CTest\Unity\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\kebji\source\repos\CTest\Unity\obj\Debug\netcoreapp3.1\Unity.AssemblyInfoInputs.cache
+C:\Users\kebji\source\repos\CTest\Unity\obj\Debug\netcoreapp3.1\Unity.AssemblyInfo.cs
+C:\Users\kebji\source\repos\CTest\Unity\obj\Debug\netcoreapp3.1\Unity.csprojAssemblyReference.cache
+C:\Users\kebji\source\repos\CTest\Unity\bin\Debug\netcoreapp3.1\Unity.deps.json
+C:\Users\kebji\source\repos\CTest\Unity\bin\Debug\netcoreapp3.1\Unity.dll
+C:\Users\kebji\source\repos\CTest\Unity\bin\Debug\netcoreapp3.1\Unity.pdb
+C:\Users\kebji\source\repos\CTest\Unity\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\kebji\source\repos\CTest\Unity\obj\Debug\netcoreapp3.1\Unity.csproj.CoreCompileInputs.cache
+C:\Users\kebji\source\repos\CTest\Unity\obj\Debug\netcoreapp3.1\Unity.csproj.CopyComplete
+C:\Users\kebji\source\repos\CTest\Unity\obj\Debug\netcoreapp3.1\Unity.dll
+C:\Users\kebji\source\repos\CTest\Unity\obj\Debug\netcoreapp3.1\Unity.pdb

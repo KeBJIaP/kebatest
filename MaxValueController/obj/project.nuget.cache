@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4nvLbqELSG5WJPLLD/UjUxmBNJrBJaa3O7N9ClP319AMV45nPd/Hf07YidX5t3H4lplwmfBt8pVPh49S1i7LCQ==",
+  "success": true,
+  "projectFilePath": "D:\\code\\github\\Kebatest\\MaxValueController\\MaxValueController.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kebji\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}

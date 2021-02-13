@@ -1,0 +1,8 @@
+C:\Users\kebji\source\repos\CTest\CandleComposing\bin\Debug\netcoreapp3.1\CandleComposing.deps.json
+C:\Users\kebji\source\repos\CTest\CandleComposing\bin\Debug\netcoreapp3.1\CandleComposing.dll
+C:\Users\kebji\source\repos\CTest\CandleComposing\bin\Debug\netcoreapp3.1\CandleComposing.pdb
+C:\Users\kebji\source\repos\CTest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.AssemblyInfoInputs.cache
+C:\Users\kebji\source\repos\CTest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.AssemblyInfo.cs
+C:\Users\kebji\source\repos\CTest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.csproj.CoreCompileInputs.cache
+C:\Users\kebji\source\repos\CTest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.dll
+C:\Users\kebji\source\repos\CTest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.pdb
