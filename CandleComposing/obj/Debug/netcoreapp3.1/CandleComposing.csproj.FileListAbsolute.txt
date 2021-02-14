@@ -6,3 +6,11 @@ C:\Users\kebji\source\repos\CTest\CandleComposing\obj\Debug\netcoreapp3.1\Candle
 C:\Users\kebji\source\repos\CTest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.csproj.CoreCompileInputs.cache
 C:\Users\kebji\source\repos\CTest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.dll
 C:\Users\kebji\source\repos\CTest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.pdb
+D:\code\github\Kebatest\CandleComposing\bin\Debug\netcoreapp3.1\CandleComposing.deps.json
+D:\code\github\Kebatest\CandleComposing\bin\Debug\netcoreapp3.1\CandleComposing.dll
+D:\code\github\Kebatest\CandleComposing\bin\Debug\netcoreapp3.1\CandleComposing.pdb
+D:\code\github\Kebatest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.AssemblyInfoInputs.cache
+D:\code\github\Kebatest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.AssemblyInfo.cs
+D:\code\github\Kebatest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.csproj.CoreCompileInputs.cache
+D:\code\github\Kebatest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.dll
+D:\code\github\Kebatest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.pdb

@@ -12,3 +12,17 @@ C:\Users\kebji\source\repos\CTest\Factories\obj\Debug\netcoreapp3.1\Factories.cs
 C:\Users\kebji\source\repos\CTest\Factories\obj\Debug\netcoreapp3.1\Factories.csproj.CopyComplete
 C:\Users\kebji\source\repos\CTest\Factories\obj\Debug\netcoreapp3.1\Factories.dll
 C:\Users\kebji\source\repos\CTest\Factories\obj\Debug\netcoreapp3.1\Factories.pdb
+D:\code\github\Kebatest\Factories\bin\Debug\netcoreapp3.1\Factories.deps.json
+D:\code\github\Kebatest\Factories\bin\Debug\netcoreapp3.1\Factories.dll
+D:\code\github\Kebatest\Factories\bin\Debug\netcoreapp3.1\Factories.pdb
+D:\code\github\Kebatest\Factories\bin\Debug\netcoreapp3.1\Common.dll
+D:\code\github\Kebatest\Factories\bin\Debug\netcoreapp3.1\Unity.dll
+D:\code\github\Kebatest\Factories\bin\Debug\netcoreapp3.1\Common.pdb
+D:\code\github\Kebatest\Factories\bin\Debug\netcoreapp3.1\Unity.pdb
+D:\code\github\Kebatest\Factories\obj\Debug\netcoreapp3.1\Factories.csprojAssemblyReference.cache
+D:\code\github\Kebatest\Factories\obj\Debug\netcoreapp3.1\Factories.AssemblyInfoInputs.cache
+D:\code\github\Kebatest\Factories\obj\Debug\netcoreapp3.1\Factories.AssemblyInfo.cs
+D:\code\github\Kebatest\Factories\obj\Debug\netcoreapp3.1\Factories.csproj.CoreCompileInputs.cache
+D:\code\github\Kebatest\Factories\obj\Debug\netcoreapp3.1\Factories.csproj.CopyComplete
+D:\code\github\Kebatest\Factories\obj\Debug\netcoreapp3.1\Factories.dll
+D:\code\github\Kebatest\Factories\obj\Debug\netcoreapp3.1\Factories.pdb

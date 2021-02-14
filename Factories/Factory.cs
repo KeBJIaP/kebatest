@@ -16,7 +16,7 @@ namespace Factories
 
         protected IDependeciesContainer GetContainer()
         {
-            return _cont;
+            return _cont.CreateChildContainer();
         }
 
         protected abstract void RegisterTypes(ref IDependeciesContainer cont);

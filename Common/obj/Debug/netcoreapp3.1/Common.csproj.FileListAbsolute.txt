@@ -7,3 +7,11 @@ C:\Users\kebji\source\repos\CTest\Common\obj\Debug\netcoreapp3.1\Common.csproj.C
 C:\Users\kebji\source\repos\CTest\Common\obj\Debug\netcoreapp3.1\Common.dll
 C:\Users\kebji\source\repos\CTest\Common\obj\Debug\netcoreapp3.1\Common.pdb
 C:\Users\kebji\source\repos\CTest\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache
+D:\code\github\Kebatest\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+D:\code\github\Kebatest\Common\bin\Debug\netcoreapp3.1\Common.dll
+D:\code\github\Kebatest\Common\bin\Debug\netcoreapp3.1\Common.pdb
+D:\code\github\Kebatest\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+D:\code\github\Kebatest\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+D:\code\github\Kebatest\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+D:\code\github\Kebatest\Common\obj\Debug\netcoreapp3.1\Common.dll
+D:\code\github\Kebatest\Common\obj\Debug\netcoreapp3.1\Common.pdb

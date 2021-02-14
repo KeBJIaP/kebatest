@@ -35,10 +35,19 @@ namespace CandleComposing
 
     public class MaxValueServiceClient : IMaxValueProvider
     {
+        private readonly ICandlesConfigurationProvider _configurationProvider;
+
+        public MaxValueServiceClient(ICandlesConfigurationProvider configurationProvider)
+        {
+            _configurationProvider = configurationProvider;
+        }
+
         public async Task<int> Get()
         {
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("https://localhost:49153/");
+            var ip = _configurationProvider.MaxValueServiceInfo.Address;
+            var port = _configurationProvider.MaxValueServiceInfo.Port;
+            client.BaseAddress = new Uri($"{ip}:{port}");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));

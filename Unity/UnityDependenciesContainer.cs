@@ -5,13 +5,13 @@ namespace Unity
 {
     public class UnityDependenciesContainer : IDependeciesContainer
     {
-        private readonly UnityContainer _c;
+        private readonly IUnityContainer _c;
 
-        public UnityDependenciesContainer()
+        public UnityDependenciesContainer(IUnityContainer unityContainer = null)
         {
-            _c = new UnityContainer();
+            _c = unityContainer ?? new UnityContainer();
 #if DEBUG
-//c.AddExtension()
+            //c.AddExtension()
 #endif
         }
 
@@ -21,7 +21,7 @@ namespace Unity
         }
 
         public void Register<TInterface, T>()
-            where T: TInterface
+            where T : TInterface
         {
             _c.RegisterType<TInterface, T>();
         }
@@ -29,6 +29,11 @@ namespace Unity
         public T Resolve<T>()
         {
             return _c.Resolve<T>();
+        }
+
+        public IDependeciesContainer CreateChildContainer()
+        {
+            return new UnityDependenciesContainer(_c.CreateChildContainer());
         }
 
         #region Dispose

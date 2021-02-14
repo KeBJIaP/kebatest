@@ -30,6 +30,7 @@ namespace Candles.Factories
         protected override void RegisterTypes(ref IDependeciesContainer cont)
         {
             cont.Register<IMaxValueProvider, MaxValueServiceClient>();
+            cont.Register<ICandlesConfigurationProvider, FromEnvCandlesConfigurationProvider>();
         }
     }
 }
