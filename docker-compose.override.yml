@@ -8,7 +8,6 @@ services:
     ports:
       - "80"
       - "443"
-      - "44358:5001" # HOST:CONTAINER 
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
@@ -19,7 +18,6 @@ services:
     ports:
       - "80"
       - "443"
-      - "44307:5001" # HOST:CONTAINER
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro

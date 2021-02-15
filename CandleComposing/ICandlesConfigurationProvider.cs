@@ -9,8 +9,24 @@ namespace CandleComposing
 
     public class FromEnvMaxValueServiceInfo : IMaxValueServiceInfo
     {
-        public string Address => Environment.GetEnvironmentVariable("MAXVALUESSERVICE_ADDRESS");
-        public int Port => Int32.Parse(Environment.GetEnvironmentVariable("MAXVALUESSERVICE_PORT"));
+        public string Address
+        {
+            get
+            {
+                var r = Environment.GetEnvironmentVariable("MAXVALUESSERVICE_ADDRESS");
+                return r;
+            }
+        }
+
+        public int Port
+        {
+            get
+            {
+                var e = Environment.GetEnvironmentVariable("MAXVALUESSERVICE_PORT");
+                var r = Int32.Parse(e);
+                return r;
+            }
+        }
     }
 
     public class FromEnvCandlesConfigurationProvider : ICandlesConfigurationProvider

@@ -45,14 +45,14 @@ namespace CandleComposing
         public async Task<int> Get()
         {
             HttpClient client = new HttpClient();
-            var ip = _configurationProvider.MaxValueServiceInfo.Address;
             var port = _configurationProvider.MaxValueServiceInfo.Port;
-            client.BaseAddress = new Uri($"{ip}:{port}");
+            var address = _configurationProvider.MaxValueServiceInfo.Address;
+            client.BaseAddress = new Uri($"https://{address}:{port}");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));
 
-            HttpResponseMessage response = await client.GetAsync("Values");
+            HttpResponseMessage response = await client.GetAsync("values");
             if (response.IsSuccessStatusCode)
             {
                 return await response.Content.ReadAsAsync<int>();

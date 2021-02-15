@@ -1,20 +1,23 @@
 version: '3.4'
-
+networks:
+  
 services:
   maxvaluecontroller:
     image: ${DOCKER_REGISTRY-}maxvaluecontroller
-    restart: always
     build:
       context: .
       dockerfile: MaxValueController/Dockerfile
-
+    ports:
+      - 44358:443 # HOST:CONTAINER 
   candles:
     image: ${DOCKER_REGISTRY-}candles
-    restart: always
     build:
       context: .
       dockerfile: Candles/Dockerfile
     environment:
       MAXVALUESSERVICE_PORT: 44358
+      MAXVALUESSERVICE_ADDRESS: maxvaluecontroller
+    ports:
+      - 44307:443 # HOST:CONTAINER 
     depends_on:
       - maxvaluecontroller

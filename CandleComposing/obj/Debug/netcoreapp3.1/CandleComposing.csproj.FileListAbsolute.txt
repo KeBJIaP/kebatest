@@ -14,3 +14,4 @@ D:\code\github\Kebatest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.
 D:\code\github\Kebatest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.csproj.CoreCompileInputs.cache
 D:\code\github\Kebatest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.dll
 D:\code\github\Kebatest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.pdb
+D:\code\github\Kebatest\CandleComposing\obj\Debug\netcoreapp3.1\CandleComposing.csprojAssemblyReference.cache
