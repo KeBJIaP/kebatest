@@ -1,23 +1,30 @@
 version: '3.4'
-networks:
-  
+ 
 services:
+
+  candles:
+    image: kebacode/candlescontroller:v2
+    build:
+      context: .
+      dockerfile: Candles/Dockerfile
+    ports:
+      - 44307:80 # HOST:CONTAINER 
+    environment:
+      MAXVALUESSERVICE_PORT: 80
+      MAXVALUESSERVICE_ADDRESS: maxvaluecontroller
+    depends_on:
+      - maxvaluecontroller
+    networks:
+    - asd
   maxvaluecontroller:
-    image: ${DOCKER_REGISTRY-}maxvaluecontroller
+    image: kebacode/maxvaluecontroller:v2
     build:
       context: .
       dockerfile: MaxValueController/Dockerfile
     ports:
-      - 44358:443 # HOST:CONTAINER 
-  candles:
-    image: ${DOCKER_REGISTRY-}candles
-    build:
-      context: .
-      dockerfile: Candles/Dockerfile
-    environment:
-      MAXVALUESSERVICE_PORT: 44358
-      MAXVALUESSERVICE_ADDRESS: maxvaluecontroller
-    ports:
-      - 44307:443 # HOST:CONTAINER 
-    depends_on:
-      - maxvaluecontroller
+      - 44359:80 # HOST:CONTAINER
+    networks:
+    - asd
+networks:
+  asd:
+    driver: bridge

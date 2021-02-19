@@ -1,0 +1,8 @@
+D:\code\github\Kebatest\Common\bin\Release\netcoreapp3.1\Common.deps.json
+D:\code\github\Kebatest\Common\bin\Release\netcoreapp3.1\Common.dll
+D:\code\github\Kebatest\Common\bin\Release\netcoreapp3.1\Common.pdb
+D:\code\github\Kebatest\Common\obj\Release\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+D:\code\github\Kebatest\Common\obj\Release\netcoreapp3.1\Common.AssemblyInfo.cs
+D:\code\github\Kebatest\Common\obj\Release\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+D:\code\github\Kebatest\Common\obj\Release\netcoreapp3.1\Common.dll
+D:\code\github\Kebatest\Common\obj\Release\netcoreapp3.1\Common.pdb

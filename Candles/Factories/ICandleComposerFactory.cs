@@ -29,6 +29,7 @@ namespace Candles.Factories
 
         protected override void RegisterTypes(ref IDependeciesContainer cont)
         {
+            cont.Register<IMaxValuesConfig, HardcodeMaxValuesConfig>();
             cont.Register<IMaxValueProvider, MaxValueServiceClient>();
             cont.Register<ICandlesConfigurationProvider, FromEnvCandlesConfigurationProvider>();
         }

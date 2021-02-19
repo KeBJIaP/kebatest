@@ -1,12 +1,47 @@
-apiVersion: v1
-kind: Pod
+apiVersion: apps/v1
+kind: Deployment
 metadata:
-  name: web
-  labels:
-    app: web
+  name: kube-maxvalues-app
 spec:
-  containers:    
-    - name: web
-      image: maxvaluecontroller
-      ports:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: kube-maxvalues-app
+  template:
+    metadata:
+      labels:
+        app: kube-maxvalues-app
+    spec:
+      containers:
+      - name: kube-maxvalues-app
+        image: kebacode/maxvaluecontroller:v2
+        ports:
         - containerPort: 80
+          protocol: TCP
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kube-candles-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: kube-candles-app
+  template:
+    metadata:
+      labels:
+        app: kube-candles-app
+    env:
+    - name: MAXVALUESSERVICE_PORT
+      value: 80
+    - name: MAXVALUESSERVICE_ADDRESS
+      value: kube-maxvalues-app
+    spec:
+      containers:
+      - name: kube-candles-app
+        image: kebacode/candlescontroller:v2
+        ports:
+        - containerPort: 80
+          protocol: TCP

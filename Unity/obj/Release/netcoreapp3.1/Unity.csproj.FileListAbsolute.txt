@@ -1,0 +1,12 @@
+D:\code\github\Kebatest\Unity\bin\Release\netcoreapp3.1\Unity.deps.json
+D:\code\github\Kebatest\Unity\bin\Release\netcoreapp3.1\Unity.dll
+D:\code\github\Kebatest\Unity\bin\Release\netcoreapp3.1\Unity.pdb
+D:\code\github\Kebatest\Unity\bin\Release\netcoreapp3.1\Common.dll
+D:\code\github\Kebatest\Unity\bin\Release\netcoreapp3.1\Common.pdb
+D:\code\github\Kebatest\Unity\obj\Release\netcoreapp3.1\Unity.csprojAssemblyReference.cache
+D:\code\github\Kebatest\Unity\obj\Release\netcoreapp3.1\Unity.AssemblyInfoInputs.cache
+D:\code\github\Kebatest\Unity\obj\Release\netcoreapp3.1\Unity.AssemblyInfo.cs
+D:\code\github\Kebatest\Unity\obj\Release\netcoreapp3.1\Unity.csproj.CoreCompileInputs.cache
+D:\code\github\Kebatest\Unity\obj\Release\netcoreapp3.1\Unity.csproj.CopyComplete
+D:\code\github\Kebatest\Unity\obj\Release\netcoreapp3.1\Unity.dll
+D:\code\github\Kebatest\Unity\obj\Release\netcoreapp3.1\Unity.pdb

@@ -1,0 +1,7 @@
+D:\code\github\Kebatest\MaxValueController\obj\Release\netcoreapp3.1\PubTmp\Out\MaxValueController.exe
+D:\code\github\Kebatest\MaxValueController\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+D:\code\github\Kebatest\MaxValueController\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+D:\code\github\Kebatest\MaxValueController\obj\Release\netcoreapp3.1\PubTmp\Out\MaxValueController.dll
+D:\code\github\Kebatest\MaxValueController\obj\Release\netcoreapp3.1\PubTmp\Out\MaxValueController.deps.json
+D:\code\github\Kebatest\MaxValueController\obj\Release\netcoreapp3.1\PubTmp\Out\MaxValueController.runtimeconfig.json
+D:\code\github\Kebatest\MaxValueController\obj\Release\netcoreapp3.1\PubTmp\Out\MaxValueController.pdb

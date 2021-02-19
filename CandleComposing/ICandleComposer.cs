@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
@@ -37,7 +38,8 @@ namespace CandleComposing
     {
         private readonly ICandlesConfigurationProvider _configurationProvider;
 
-        public MaxValueServiceClient(ICandlesConfigurationProvider configurationProvider)
+        public MaxValueServiceClient(
+            ICandlesConfigurationProvider configurationProvider)
         {
             _configurationProvider = configurationProvider;
         }
@@ -45,9 +47,10 @@ namespace CandleComposing
         public async Task<int> Get()
         {
             HttpClient client = new HttpClient();
+
             var port = _configurationProvider.MaxValueServiceInfo.Port;
             var address = _configurationProvider.MaxValueServiceInfo.Address;
-            client.BaseAddress = new Uri($"https://{address}:{port}");
+            client.BaseAddress = new Uri($"http://{address}:{port}/");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));

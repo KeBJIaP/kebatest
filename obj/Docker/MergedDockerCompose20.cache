@@ -1,0 +1,39 @@
+services:
+  candles:
+    build:
+      context: D:\code\github\Kebatest
+      dockerfile: Candles/Dockerfile
+    depends_on:
+      maxvaluecontroller:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      MAXVALUESSERVICE_ADDRESS: localhost
+      MAXVALUESSERVICE_PORT: 44358
+    image: kebacode/candlescontroller:v1
+    ports:
+    - published: 44307
+      target: 80
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\kebji\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\kebji\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  maxvaluecontroller:
+    build:
+      context: D:\code\github\Kebatest
+      dockerfile: MaxValueController/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: kebacode/maxvaluecontroller:v1
+    ports:
+    - published: 44359
+      target: 80
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\kebji\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\kebji\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

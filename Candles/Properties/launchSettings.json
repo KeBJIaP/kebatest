@@ -22,6 +22,8 @@
       "launchBrowser": true,
       "launchUrl": "candles",
       "environmentVariables": {
+        "MAXVALUESSERVICE_PORT": "44358",
+        "MAXVALUESSERVICE_ADDRESS": "127.0.0.1",
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "applicationUrl": "https://localhost:5001;http://localhost:5000"

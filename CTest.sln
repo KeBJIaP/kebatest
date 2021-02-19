@@ -19,7 +19,9 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56220E3D-28CB-4FCD-9144-EA96AFFA6634}"
 	ProjectSection(SolutionItems) = preProject
+		configmap.yml = configmap.yml
 		deployment.yml = deployment.yml
+		service.yml = service.yml
 	EndProjectSection
 EndProject
 Global
